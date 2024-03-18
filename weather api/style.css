@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+ 
+body
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.overlap
+{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width : 350px;
+    height : 500px;
+    background-color: white;
+    color:black;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 20px;
+    transition: opacity 1.5s ease;
+    opacity: 1;
+    
+}
+
+ 
+ .overlap:hover
+{
+    opacity: 0; /* Change opacity to 0 (invisible) on hover */
+     
+    
+}
+
+h3
+{
+    margin-top:0 ;
+    margin-bottom: 0;
+}
+
+.container
+{
+     
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 350px;
+    height : 500px;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+.input_image
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+ input
+{
+     
+    width: 240px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    position: relative;
+    bottom: 50px;  
+    margin: 15px;
+    padding: 15px;
+}
+
+button
+{
+     
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    bottom: 50px;  
+    background-size: 15px;
+    margin: 15px;
+    
+}
+
+button img{
+    width: 16px;
+}
+
+
+.center .celcius p
+{
+font-size: 50px;
+margin: 0;
+}
+
+
+.center .place p
+{
+font-size: 30px;
+margin: 0;
+}
+
+.center .logo img
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.wind-humid
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+
+}
+  .wind-humid div
+{   
+    margin:  0  100px; 
+}  
+
+
+.wind-humid .wind  
+{
+    margin: 0 50 0 10;   
+}
+
+.wind-humid .wind img  
+{   
+     width: 40px;
+     height: 40px;
+}
+
+
+
+.wind-humid .humid  
+{
+    
+    margin: 0 10 0 50;
+}
+
+.wind-humid .humid img  
+{
+     width: 65px;
+     height: 40px;
+} 
